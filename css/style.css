@@ -1,5 +1,6 @@
-/*--Générique--*/
-
+/*-------------------------------------------------------------------------------
+GÉNÉRIQUE 
+--------------------------------------------------------------------------------*/
 html{
     box-sizing: border-box;
 
@@ -9,9 +10,87 @@ html{
     box-sizing: inherit;
 }
 
-/*--Éléments--*/
+/*-------------------------------------------------------------------------------
+ÉLÉMENTS 
+--------------------------------------------------------------------------------*/
+
+/*Général*/
 
 body{
     padding: 0;
     margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+
+}
+
+/*header*/
+
+.logo{
+    font: 700 2.625em "Jost", sans-serif;
+
+    color: black;
+}
+
+.logo span{
+    font-size: 1em;
+}
+
+.menu{
+    font: 700 1.125em "Jost", sans-serif;
+}
+
+
+
+
+
+/*-------------------------------------------------------------------------------
+COMPONENTS 
+--------------------------------------------------------------------------------*/
+
+/*--wrapper--*/
+.wrapper{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/*header*/
+
+
+
+.header{
+    background-color: white;
+    border-top:4px #E25254 solid;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;  
+    gap: 20px ; 
+}
+
+.header .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu a{
+    color: black;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
 }
