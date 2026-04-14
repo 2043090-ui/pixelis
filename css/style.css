@@ -1,0 +1,17 @@
+/*--Générique--*/
+
+html{
+    box-sizing: border-box;
+
+}
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+/*--Éléments--*/
+
+body{
+    padding: 0;
+    margin: 0;
+}
