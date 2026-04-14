@@ -47,6 +47,17 @@ p{
 
 }
 
+h3{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    font: 700 1.375em/1.1 "Josefin Sans", sans-serif;
+
+
+
+}
+
 /*header*/
 
 .logo{
@@ -70,7 +81,18 @@ h1{
     font:700 3.125em/1.1 "Jost", sans-serif;
     margin: 0;
 }
+ 
+/*Conteneur principal*/
 
+h2{
+    font: 700 2.25em/1.1 "Jost", sans-serif ;
+    margin: 0;
+}
+
+.nos_services p{
+    margin: 10px auto;
+    padding-bottom: ;
+}
 
 
 
@@ -155,3 +177,43 @@ COMPONENTS
 }
 
  
+/*Conteneur principal*/
+
+.contenu1{
+    background: #D6D6D6;
+    padding: 80px;
+    
+    
+}
+
+.contenu1 .wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.nos_services{
+    max-width: 588px;
+    
+}
+
+.conteneur{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;    
+
+}
+
+.card{
+    background-color: white;
+    color:#E25254 ;
+
+    padding: 20px;
+}
+
+.card:hover{
+    color: white;
+    background-color: #E25254;
+}
+
+/*Conteneur secondaire*/
